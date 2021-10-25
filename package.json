@@ -1,0 +1,20 @@
+{
+  "name": "vertex-centric-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/index.js",
+  "gypfile": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "author": "Joseph Black",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "node-gyp": "^7.1.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^3.0.2"
+  }
+}
